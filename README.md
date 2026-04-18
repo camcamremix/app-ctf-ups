@@ -17,7 +17,8 @@ Un **CTF (Capture The Flag)** es una competencia de ciberseguridad diseñada com
 *   **Lenguaje:** Python 3.9 (Flask Framework).
 *   **Base de Datos:** SQLite 3 (Tabla `identidad` para flags).
 *   **Contenedorización:** Docker v24+ & Docker Compose.
-*   **Repositorio Público:** [camremix/ctf-lab-ups](https://hub.docker.com/r/camremix/ctf-lab-ups)
+*   **Repositorio Docker Hub:** [camremix/ctf-lab-ups](https://hub.docker.com/r/camremix/ctf-lab-ups)
+*   **Repositorio GitHub:** [camcamremix/app-ctf-ups](https://github.com/camcamremix/app-ctf-ups)
 
 ---
 
