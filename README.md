@@ -83,7 +83,7 @@ docker run -p 5000:5000 camremix/ctf-lab-ups:v1
 > A continuación se presentan las evidencias de que el laboratorio está operativo y los retos son resolubles.
 
 ### A. Dashboard Principal (Niveles)
-*(Pegar aquí captura del mapa de desafíos al iniciar)*
+![Dashboard Principal](Images/dashboard_principal.png)
 
 ### B. Ejemplo de Resolución: Nivel 1 (Bypass)
 *(Pegar aquí captura de la pantalla tras ingresar `' OR 1=1 --`)*
