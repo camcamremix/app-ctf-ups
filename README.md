@@ -1,6 +1,6 @@
 # Informe Técnico: Laboratorio CTF de Seguridad Web (UPS 2026)
 
-Este documento detalla la creación, el despliegue y la resolución del laboratorio de ciberseguridad desarrollado para la **Tarea 1**.
+Este documento detalla la creación, el despliegue y la resolución del laboratorio de ciberseguridad desarrollado para la **Tarea de Recuperación**.
 
 ### ¿Qué es un CTF?
 Un **CTF (Capture The Flag)** es una competencia de ciberseguridad diseñada como un ejercicio de entrenamiento interactivo. En este entorno, los participantes actúan como "atacantes éticos" que deben identificar y explotar vulnerabilidades en sistemas o aplicaciones para encontrar una "bandera" (Flag) —una cadena de texto secreta— que demuestre que han comprometido con éxito el objetivo.
