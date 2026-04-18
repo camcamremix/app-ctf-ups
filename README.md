@@ -105,10 +105,47 @@ docker run -p 5000:5000 camremix/ctf-lab-ups:v1
 
 ---
 
-## 7. Conclusiones y Recomendaciones
+## 7. Guía para Desarrolladores y Colaboradores
+
+### 7.1. Trabajo con GitHub (Git Workflow)
+Si deseas contribuir a este proyecto o realizar modificaciones, sigue estos pasos:
+
+1.  **Clonar el repositorio:**
+    ```bash
+    git clone https://github.com/camcamremix/app-ctf-ups.git
+    ```
+2.  **Realizar cambios y Commits:**
+    Tras modificar los archivos, prepara y guarda tus cambios:
+    ```bash
+    git add .
+    git commit -m "Descripción clara de los cambios realizados"
+    ```
+3.  **Subir cambios:**
+    ```bash
+    git push origin main
+    ```
+4.  **Pull Requests:**
+    Si deseas que tus cambios sean revisados e integrados al proyecto principal, sube tus cambios a una rama nueva y abre un **Pull Request** desde la interfaz de GitHub describiendo tu mejora.
+
+### 7.2. Despliegue desde Docker Hub
+Para quienes deseen probar el laboratorio sin descargar el código fuente, la solución está pre-construida:
+
+1.  **Descargar la imagen oficial:**
+    ```bash
+    docker pull camremix/ctf-lab-ups:v1
+    ```
+2.  **Ejecutar el contenedor:**
+    ```bash
+    docker run -d -p 5000:5000 --name ctf-lab camremix/ctf-lab-ups:v1
+    ```
+3.  **Acceso:** Abre tu navegador en `http://localhost:5000`.
+
+---
+
+## 8. Conclusiones y Recomendaciones
 El laboratorio demuestra que la falta de saneamiento en las entradas (`input`) es la causa principal de las fallas de seguridad web. Se recomienda encarecidamente a los futuros desarrolladores el uso de **consultas parametrizadas** y la **validación estricta de rutas** de archivos para mitigar estos riesgos.
 
 ---
-**Desarrollado por:** [Tu Nombre / camremix]  
+**Desarrollado por:** [Carlos Montaluisa / camremix]  
 **Materia:** Seguridad en Aplicaciones  
 **Fecha:** 18 de Abril de 2026
