@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  ctf-web:
+    build: .
+    ports:
+      - "5000:5000"
+    container_name: ctf_lab_2026
+    restart: always
