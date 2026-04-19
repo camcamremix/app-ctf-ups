@@ -85,6 +85,7 @@ docker run -p 5000:5000 camremix/ctf-lab-ups:v1
 ### A. Dashboard Principal (Niveles)
 ![Dashboard Principal](Images/dashboard_principal.png)
 
+### B. Ejemplo de Resolución: Nivel 1 (Bypass)
 ![Resolución Nivel 1](Images/nivel1.png)
 
 ### C. Ejemplo de Resolución: Nivel 2 (Error-Based)
@@ -100,7 +101,7 @@ docker run -p 5000:5000 camremix/ctf-lab-ups:v1
 ![Resolución Nivel 5](Images/nivel5.png)
 
 ### G. Ficha de Resultados Finales (Logros)
-![Resultados Finales](Images/resultados.png)
+![Resultados Finales](Images/resultado.png)
 
 ---
 
