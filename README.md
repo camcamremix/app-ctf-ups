@@ -151,7 +151,29 @@ Para quienes deseen probar el laboratorio sin descargar el código fuente, la so
 
 ---
 
-## 8. Conclusiones y Recomendaciones
+## 8. Cumplimiento de Requerimientos de Automatización
+
+Este proyecto ha sido diseñado bajo la filosofía de **Infraestructura como Código (IaC)**, cumpliendo con los tres pilares de automatización solicitados:
+
+### 8.1. Provisionamiento (Provisioning)
+El proceso de preparación de la infraestructura es 100% automático:
+*   **Script `init_db.py`**: Automatiza la creación de la base de datos SQLite y la siembra de datos (flags y usuarios).
+*   **Gestión de Archivos**: El sistema crea automáticamente las carpetas `docs/` y `flags/` con sus respectivos contenidos secretos al iniciar.
+*   **Dependencias**: El `Dockerfile` provisiona el entorno de software instalando Python y las librerías necesarias sin intervención manual.
+
+### 8.2. Despliegue (Deployment)
+El empaquetado y distribución se gestiona mediante contenedores:
+*   **Imagen Docker**: Toda la aplicación y su configuración se compilan en una imagen inmutable.
+*   **Repositorio Central**: El uso de Docker Hub permite que el despliegue en cualquier servidor sea instantáneo mediante un `docker pull`.
+
+### 8.3. Arranque (Startup)
+El inicio del servicio es inmediato y directo:
+*   **Orquestación con Docker Compose**: Un solo comando (`docker-compose up`) activa la red, mapea los puertos y arranca el servicio.
+*   **EntryPoint Automático**: La aplicación Flask se inicia automáticamente al encender el contenedor gracias a la instrucción `CMD` del Dockerfile.
+
+---
+
+## 9. Conclusiones y Recomendaciones
 El laboratorio demuestra que la falta de saneamiento en las entradas (`input`) es la causa principal de las fallas de seguridad web. Se recomienda encarecidamente a los futuros desarrolladores el uso de **consultas parametrizadas** y la **validación estricta de rutas** de archivos para mitigar estos riesgos.
 
 ---
