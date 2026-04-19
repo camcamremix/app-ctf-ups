@@ -85,14 +85,22 @@ docker run -p 5000:5000 camremix/ctf-lab-ups:v1
 ### A. Dashboard Principal (Niveles)
 ![Dashboard Principal](Images/dashboard_principal.png)
 
-### B. Ejemplo de Resolución: Nivel 1 (Bypass)
-*(Pegar aquí captura de la pantalla tras ingresar `' OR 1=1 --`)*
+![Resolución Nivel 1](Images/nivel1.png)
 
-### C. Ejemplo de Resolución: Nivel 4 (Extracción UNION)
-*(Pegar aquí captura del Flag capturado y la explicación educativa)*
+### C. Ejemplo de Resolución: Nivel 2 (Error-Based)
+![Resolución Nivel 2](Images/nivel2.png)
 
-### D. Ficha de Resultados Finales (Logros)
-*(Pegar aquí captura de la página /results con el 100% completado)*
+### D. Ejemplo de Resolución: Nivel 3 (Boolean-Based)
+![Resolución Nivel 3](Images/nivel3.png)
+
+### E. Ejemplo de Resolución: Nivel 4 (Extracción UNION)
+![Resolución Nivel 4](Images/nivel4.png)
+
+### F. Ejemplo de Resolución: Nivel 5 (Directory Traversal)
+![Resolución Nivel 5](Images/nivel5.png)
+
+### G. Ficha de Resultados Finales (Logros)
+![Resultados Finales](Images/resultados.png)
 
 ---
 
